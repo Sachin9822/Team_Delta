@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    app:layout_constraintCircleRadius="70dp"
+    android:background="@drawable/rounded_blue_employee_view"
+    android:layout_margin="6dp"
+
+    >
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/new_admin"
+        android:contentDescription="@string/employee_image" />
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/employee_name"
+        android:textColor="@color/black"
+        android:layout_marginStart="65dp"
+        />
+
+</RelativeLayout>
